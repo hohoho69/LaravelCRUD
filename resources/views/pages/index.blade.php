@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-2">
             </div>
-            <div class="col-md-10">
+            <div class="col-md-12">
 
             <div class="form-area">
                 <form method="POST" action="{{ route('employee.store') }}">
@@ -60,7 +60,7 @@
                             <td scope="col">{{ $employee->emp_name }}</td>
                             <td scope="col">{{ $employee->dob }}</td>
                             <td scope="col">{{ $employee->phone }}</td>
-                            
+
                             <td scope="col">
 
                             <a href="{{  route('employee.edit', $employee->id) }}">
